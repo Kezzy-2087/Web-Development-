@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links And Images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+
+    <!-- Below is an anchor without href that directs it to a webpage -->
+    <!-- <a>About The Odin Project</a> -->
+    <!-- By default, any text wrapped with an anchor tag without an href attribute will look like plain text. If the href attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
+    It’s worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. 
+    You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents. -->
+
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    <a href="https://github.com/dashboard"><p>Link to my profile</p></a>
+
+    <!-- While href specifies the destination link, target specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the _self value which opens the link in the current tab. 
+    To open the link in a new tab or window (depends on browser settings) you can set it to _blank as follows: -->
+
+    <!-- The noopener value prevents the opened link from gaining access to the webpage from which it was opened.
+    The noreferrer value prevents the opened link from knowing which webpage or resource has a link (or ‘reference’) to it. 
+    The noreferrer value also includes the noopener behaviour and thus can be used by itself as well. -->
+
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+
+
+    <!-- Below is a relatibe link. i.e, it is a page in my own website, not outside the page... Unlike the above ones, which are absolute links that redirect to another website. -->
+
+    <p></p><a href="./pages/about.html">About</a></p>
+
+</body>
+</html>
